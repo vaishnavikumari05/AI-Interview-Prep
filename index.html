@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Question Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Interview Prep</h1>
+        <div id="timer">15:00</div>
+
+        <select id="role">
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Python Developer">Python Developer</option>
+        </select>
+
+        <button onclick="generateQuestion()">
+            Generate Question
+        </button>
+
+        <div id="questionBox">
+            Select a role and click Generate Question
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
